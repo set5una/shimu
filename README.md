@@ -1,6 +1,9 @@
 # Project Shimu
 I2C/SPI dual protocol ICM-45686/42688P breakout board mechanically compatible with [Adafruit BNO055 breakout](https://www.adafruit.com/product/2472)
 
+> [!WARNING]
+> I2C SDA/SCL Pins are exchanged on Shimu compared to Adafruit BNO055 Pinout
+
 ## Assembled with TLV75533PDRVR and ICM-45686
 ![PXL_20251113_190650305](https://github.com/user-attachments/assets/223eb99a-9a69-40f8-8730-cf7a74f316f9)
 ![PXL_20251113_183413162](https://github.com/user-attachments/assets/1b826b94-89d9-4ffa-bc20-309cd93c11ef)
