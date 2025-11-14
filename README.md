@@ -1,8 +1,11 @@
 # Project Shimu
-I2C/SPI dual protocol ICM-45686/42688P breakout board mechanically compatible with [Adafruit BNO055 breakout](https://www.adafruit.com/product/2472)
+I2C/SPI dual protocol ICM-45686/42688P breakout board mechanically compatible with [Adafruit BNO055 breakout](https://www.adafruit.com/product/2472).
 
 > [!WARNING]
-> I2C SDA/SCL Pins are exchanged on Shimu compared to Adafruit BNO055 Pinout
+> I2C SDA/SCL Pins are exchanged on Shimu compared to the Adafruit BNO055 Pinout.
+
+> [!TIP]
+> Supplying 5V to VIN will enable the onboard LDO, which can provide a cleaner power supply to the IMU. The onboard LDO can provide up to 500mA on the 3.3V rail.
 
 ## Assembled with TLV75533PDRVR and ICM-45686
 ![PXL_20251113_190650305](https://github.com/user-attachments/assets/223eb99a-9a69-40f8-8730-cf7a74f316f9)
